@@ -1,6 +1,0 @@
-name: Workflow Actions
-
-on: 
-  repository_dispatch:
-    types: [build]
-
