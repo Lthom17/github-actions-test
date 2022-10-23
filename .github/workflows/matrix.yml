@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
     - name: Log Node node-version
-      run: node node -v 
+      run: node -v 
     - uses: actions/setup-node@v3
       with:
        node-version: 6
     - name: Log Node node-version
-      run: node node -v 
+      run: node -v 
